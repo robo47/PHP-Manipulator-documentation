@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<sect2 id="system.action.format-if-elseif-else">
+    <title>FormatIfElseifElse-Action</title>
+
+    <para>
+        The FormatIfElseifElse-Action formats if, else and elseif.
+    </para>
+    <para>
+        <literallayout>
+            The option spaceAfterIf specifies if there is a space after the T_IF.
+            The option spaceAfterElseif specifies if there is a space after the T_ELSEIF.
+            The option spaceAfterElse specifies if there is a space after the T_ELSE.
+            The option spaceBeforeElseif specifies if there is a space before the T_ELSEIF.
+            The option spaceBeforeElse specifies if there is a space before the T_ELSE.
+            The option breakAfterCurlyBraceOfIf specifies if there is a break after the curly-brace behind T_IF.
+            The option breakAfterCurlyBraceOfElse specifies if there is a break after the curly-brace behind T_ELSE.
+            The option breakAfterCurlyBraceOfElseif specifies if there is a break after the curly-brace behind T_ELSEIF.
+            The option breakBeforeCurlyBraceOfElse specifies if there is a break before the curly-brace behind T_ELSE.
+            The option breakBeforeCurlyBraceOfElseif specifies if there is a break before the curly-brace behind T_ELSEIF.
+            The option breakAfterIf specifies if there is a break after the complete if-expression.
+            The option breakAfterElse specifies if there is a break after the complete else-expression.
+            The option breakAfterElseif specifies if there is a break after the complete elseif-expression.
+            The option breakBeforeElse specifies if there is a break before the T_ELSE.
+            The option breakBeforeElseif specifies if there is a break before the T_ELSEIF.
+            The option spaceBeforeIfExpression specifies if there is a space before the expression of the if.
+            The option spaceAfterIfExpression specifies if there is a space after the expression of the if.
+            The option spaceBeforeElseifExpression specifies if there is a space before the expression of the elseif.
+            The option spaceAfterElseifExpression specifies if there is a space after the expression of the elseif.
+        </literallayout>
+    </para>
+</sect2>

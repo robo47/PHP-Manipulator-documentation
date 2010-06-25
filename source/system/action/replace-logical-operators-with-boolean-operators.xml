@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<sect2 id="system.action.replace-logical-operators-with-boolean-operators">
+    <title>ReplaceLogicalOperatorsWithBooleanOperators-Action</title>
+
+    <para>
+        The ReplaceLogicalOperatorsWithBooleanOperators-Action replaces the T_LOGICAL_AND (AND) and T_LOGICAL_OR (OR) with T_BOOLEAN_AND (&amp;&amp;) and T_BOOLEAN_OR (||).
+    </para>
+    <!-- @todo add info about options -->
+</sect2>

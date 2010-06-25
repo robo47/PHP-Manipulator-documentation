@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<sect2 id="system.action.format-switch">
+    <title>FormatSwitch-Action</title>
+
+    <para>
+        The FormatSwitch-Action allows formatting switch-statemens, where spaces are put, where newlines are put, etc.
+    </para>
+    <para>
+        <literallayout>
+        The option spaceAfterSwitch specifies if there is a space after the T_SWITCH token
+        The option spaceAfterSwitchVariable specifies if there is a space after the closing brace around the variable
+        The option breakBeforeCurlyBrace specifies if there is a break before the curly brace.
+        </literallayout>
+    </para>
+</sect2>

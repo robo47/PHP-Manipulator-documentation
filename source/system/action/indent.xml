@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<sect2 id="system.action.indent">
+    <title>Indent-Action</title>
+
+    <para>
+        The Indent-Action does code-indention based on its options.
+    </para>
+    <para>
+        <literallayout>
+            The option useSpaces specifies if spaces should be used or if false, tabs are used.
+            The option tabWidth specifies the width of a tab in spaces.
+            The option indentionWidth specifies how much a normal indention is.
+            The option initialIdentionWidth specifies the depth all code is indented.
+        </literallayout>
+    </para>
+</sect2>

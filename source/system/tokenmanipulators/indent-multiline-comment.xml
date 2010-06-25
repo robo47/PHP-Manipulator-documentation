@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<sect2 id="system.tokenmanipulator.indent-multiline-comment">
+    <title>IndentMultilineComment-TokenManipulator</title>
+
+    <para>
+        The IndentMultilineComment-TokenManipulator indents all the lines of a Multiline-comment according with the given string in $params.
+    </para>
+</sect2>

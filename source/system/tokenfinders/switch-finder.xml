@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<sect2 id="system.tokenfinder.switch-finder">
+    <title>SwitchFinder-TokenFinder</title>
+
+    <para>
+        The SwitchFinder-TokenFinder returns a result containing a complete switch up to the closing curly brace.
+    </para>
+    <para>
+        The Starttoken is a T_SWITCH-token.
+    </para>
+    <para>
+        It does not yet have support for phps alternate syntax.
+    </para>
+</sect2>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<sect2 id="system.tokenfinder.function-finder">
+    <title>FunctionFinder-TokenFinder</title>
+
+    <para>
+        The FunctionFinder-TokenFinder can find all tokens which are part of a function or method.
+    </para>
+    <para>
+        The Starttoken is the T_FUNCTION-token of a function.
+    </para>
+    <para>
+        The end can be the closing curly brace (}) for normal functions and methods or the semicolon (;) for anonymous functions (Closures), abstract methods or methods in interfaces.
+    </para>
+    <para>
+        The $params-parameter allows to pass in an array with the following 2 keys:
+    </para>
+    <para>
+        <literallayout>
+        includeMethodProperties -> if it should include tokens in front of the T_FUNCTION like public/private/protected or static and abstract.
+        includePhpdoc           -> if should include the methods phpdoc
+        </literallayout>
+    </para>
+</sect2>

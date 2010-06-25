@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<sect1 id="requirements">
+    <title>Requirements</title>
+    <para>
+        PHP\Manipulator requires PHP 5.3+ using features like namespaces and Closures.
+    </para>
+    <para>
+        extensions:
+    </para>
+    <para>
+        <itemizedlist>
+            <listitem>spl</listitem>
+            <listitem>tokenizer</listitem>
+            <listitem>pcre</listitem>
+            <listitem>dom</listitem>
+        </itemizedlist>
+        <para>libraries:</para>
+        <itemizedlist>
+            <listitem>Symfony 2.0
+                <itemizedlist>
+                    <listitem>Classloader</listitem>
+                    <listitem>Console</listitem>
+                    <listitem>Finder</listitem>
+                </itemizedlist>
+            </listitem>
+            <listitem>PHPUnit 3.4+ (unittests only)</listitem>
+        </itemizedlist>
+    </para>
+    <para>configuration: </para>
+    <para>
+        <screen>
+            <userinput>short_open_tag = On</userinput>
+            <userinput>asp_tags = On</userinput>
+        </screen>
+        (both only if the code you want to manipulate contains them!)
+    </para>
+</sect1>

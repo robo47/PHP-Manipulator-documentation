@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<sect1 id="system.tokenconstraint">
+    <title>TokenConstraint</title>
+
+    <para>
+        TokenConstraints allow to check if a token fulfils specific requirements.
+    </para>
+
+    <xi:include  href="tokenconstraints/begins-with-newline.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="tokenconstraints/contains-newline.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="tokenconstraints/contains-only-whitespace.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="tokenconstraints/ends-with-newline.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="tokenconstraints/is-doublequote.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="tokenconstraints/is-error-control-operator.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="tokenconstraints/is-multiline-comment.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="tokenconstraints/is-operator.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="tokenconstraints/is-single-newline.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="tokenconstraints/is-singleline-comment.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+
+</sect1>

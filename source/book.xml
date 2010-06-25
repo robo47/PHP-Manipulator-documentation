@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<book xml:lang="en" id="php\manipulator" xmlns:xi="http://www.w3.org/2003/XInclude" >
+    <title>PHP\Manipulator Manual</title>
+
+    <bookinfo>
+        <pubdate><?dbtimestamp format="Y-m-d"?></pubdate>
+
+        <author>
+            <firstname>Benjamin</firstname>
+            <surname>Steininger</surname>
+        </author>
+
+        <copyright>
+            <year>2010</year>
+            <holder>Benjamin Steininger</holder>
+        </copyright>
+
+        <legalnotice>
+            <para>This work is licensed under the Creative Commons Attribution 3.0 Unported License.</para>
+        </legalnotice>
+    </bookinfo>
+
+    <xi:include  href="introduction.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="system.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+</book>

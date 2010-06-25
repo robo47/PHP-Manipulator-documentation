@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<sect2 id="system.action.format-operators">
+    <title>FormatOperators-Action</title>
+
+    <para>
+        The FormatOperators-Action allows to set before and after which operator spaces are inserted.
+    </para>
+    <para>
+        <literallayout>
+        The option afterOperator is an array (index is token-constant, value is string with space(s)) which token/operator gets which space before it.
+        The option beforeOperator is an array (index is token-constant, value is string with space(s)) which token/operator gets which space before it.
+        </literallayout>
+    </para>
+</sect2>

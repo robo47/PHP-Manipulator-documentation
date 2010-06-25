@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<sect2 id="system.action.format-casts">
+    <title>FormatCasts-Action</title>
+
+    <para>
+        The FormatCasts-Action allows to format how casts look, uppercase, lowercase and if they are followed by a T_WHITESPACE containing a space or directly attached to the following token.
+    </para>
+    <para>
+        <literallayout>
+        The option searchedTokens allows to specify which casts should look how (array with token-constant as index and value as string).
+        The option whitespaceBehindCasts specifies if there is a space after the cast or not.
+        </literallayout>
+    </para>
+</sect2>

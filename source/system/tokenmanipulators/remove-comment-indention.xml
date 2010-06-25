@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<sect2 id="system.tokenmanipulator.remove-comment-indention">
+    <title>RemoveCommentIndention-TokenManipulator</title>
+
+    <para>
+        The RemoveCommentIndention-TokenManipulator removes the indention of each line of a multiline commment.
+    </para>
+</sect2>

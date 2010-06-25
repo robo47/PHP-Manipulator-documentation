@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<sect1 id="system.actionset">
+    <title>Actionset</title>
+
+    <para>
+           Actionsets are a way to capsulate many actions with specific options into some kind of a package.
+    </para>
+    <para>
+           For example if you use PHP\Manipulator as part of your build or deploy-process, you can create an actionset which runs all your actions with specified parameters.
+           Or you can define an Actionset which forms you own Coding-Guidelines to automatically format your Code according to you defined set of Actions.
+    </para>
+
+    <xi:include  href="actionset/php-manipulator.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+</sect1>

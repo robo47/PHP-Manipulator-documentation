@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<sect2 id="system.action.remove-multiple-empty-lines">
+    <title>RemoveMultipleEmptyLines-Action</title>
+
+    <para>
+        The RemoveMultipleEmptyLines-Action removes multiple empty lines in the container. The maximum allowed number of empty lines in a row can be defined via the option maxEmptyLines, which defaults to 2 lines.
+    </para>
+</sect2>

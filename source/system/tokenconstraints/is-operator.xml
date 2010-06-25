@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<sect2 id="system.tokenconstraint.is-operator">
+    <title>IsOperator-TokenConstraint</title>
+
+    <para>
+        The IsOperator-TokenConstraint checks if the token is any of phps operators: 
+    </para>
+    <!-- @todo create nicely formatted list of operators -->
+    <literallayout>
+// assignment operators
+T_AND_EQUAL, // &amp;=
+T_CONCAT_EQUAL, // .=
+T_DIV_EQUAL, // /=
+T_MINUS_EQUAL, // -=
+T_MOD_EQUAL, // &amp;=
+T_MUL_EQUAL, // *=
+T_OR_EQUAL, // |=
+T_PLUS_EQUAL, // +=
+T_SR_EQUAL, // &gt;&gt;=
+T_SL_EQUAL, // &lt;&lt;=
+T_XOR_EQUAL, // ^=
+
+// logical operators
+T_LOGICAL_AND, // and
+T_LOGICAL_OR, // or
+T_LOGICAL_XOR, // xor
+T_BOOLEAN_AND, // &amp;&amp;
+T_BOOLEAN_OR, // ||
+
+// bitwise operators
+T_SL, // &lt;&lt;
+T_SR, // &gt;&gt;
+
+// incrementing/decrementing operators
+T_DEC, // --
+T_INC, // ++
+
+// comparision operators
+T_IS_EQUAL, // ==
+T_IS_GREATER_OR_EQUAL, // &gt;=
+T_IS_IDENTICAL, // ===
+T_IS_NOT_EQUAL, // != or &lt;&gt;
+T_IS_NOT_IDENTICAL, // !==
+T_IS_SMALLER_OR_EQUAL, // &lt;=
+
+// type-operators
+T_INSTANCEOF, // instanceof
+</literallayout>
+</sect2>

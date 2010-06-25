@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<sect2 id="system.action.remove-includes-and-requires">
+    <title>RemoveIncludesAndRequires-Action</title>
+
+    <para>
+        The RemoveIncludesAndRequires-Action removes includes and requires (including include_once and require_once) from you code, not only the token, the complete include/require.
+    </para>
+    <para>
+        Using the option globalScopeOnly you can remove only includes and requires which are not inside functions and classes.
+    </para>
+</sect2>

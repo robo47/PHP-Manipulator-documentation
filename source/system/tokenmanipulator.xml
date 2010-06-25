@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<sect1 id="system.tokenmanipulator">
+    <title>TokenManipulators</title>
+
+    <para>
+        TokenManipulators manipulate Tokens, they can change their content or their type.
+    </para>
+
+    <xi:include  href="tokenmanipulators/indent-multiline-comment.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="tokenmanipulators/lowercase-token-value.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="tokenmanipulators/multiline-to-singleline-comment.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="tokenmanipulators/remove-begin-newline.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="tokenmanipulators/remove-comment-indention.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="tokenmanipulators/remove-leading-and-trailing-empty-lines-in-phpdoc.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="tokenmanipulators/uppercase-token-value.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+
+</sect1>

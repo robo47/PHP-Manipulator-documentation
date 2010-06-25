@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<sect1 id="system.action">
+    <title>Action</title>
+
+    <para>
+        The Actions are ... @todo NO CONTENT YET
+    </para>
+
+    <xi:include  href="action/add-public-keyword.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/asptags-to-long-tags.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/change-line-endings.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/change-quotes-to-single-quotes.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/comment-out-includes-and-requires.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/else-and-if-to-else-if.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/else-if-to-else-and-if.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/format-casts.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/format-if-elseif-else.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/format-operators.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/format-switch.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/indent.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/old-style-constructor-replacer.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/remove-comments.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/remove-empty-else.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/remove-error-control-operator.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/remove-includes-and-requires.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/remove-indention.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/remove-leading-and-trailing-empty-lines-in-phpdoc.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/remove-multiple-empty-lines.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/remove-trailing-whitespace.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/remove-typehints.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/remove-whitespace-from-end.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/replace-boolean-operators-with-logical-operators.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/replace-logical-operators-with-boolean-operators.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/replace-var-with-public.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/shorttags-to-long-tags.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/strip-non-php.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/strip-php.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/strip-unneeded-php-close-tag.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/uppercase-constants.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+
+</sect1>

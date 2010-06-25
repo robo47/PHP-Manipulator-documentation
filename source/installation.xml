@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<sect1 id="installation">
+    <title>Installation</title>
+
+    <para>
+            The easiest way to install PHP\Manipulator is via its pear-channel
+        <systemitem role="URL">pear.robo47.net</systemitem> or directly from a
+            PEAR-package you can download on the pear-channels page:
+        <ulink url="http://pear.robo47.net">pear.robo47.net</ulink>.
+
+            Since PHP\Manipulator depends on Symfony2, which not yet has an official PEAR-repository, I added a Pear-Package for it too, until there is an official Symfony2-PEAR-Package in the Symfony-PEAR-Repository.
+    </para>
+
+    <screen>
+        <userinput>pear channel-discover pear.robo47.net</userinput>
+        <userinput>pear install robo47/symfony2</userinput>
+        <userinput>pear install robo47/php-manipulator</userinput>
+    </screen>
+
+    <para>
+        Another way to install it is to download or clone the repository on github and <!-- @todo describe way -->
+    </para>
+</sect1>

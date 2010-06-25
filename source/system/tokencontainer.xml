@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<sect1 id="system.tokencontainer">
+    <title>TokenContainer</title>
+
+    <para>
+        The TokenContainer represents a set of tokens which form a sourcecode.
+    </para>
+</sect1>

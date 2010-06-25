@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="PHP\Manipulator documentation" basedir="." default="build">
+
+    <!-- Build documentation -->
+    <target name="build" >
+
+        <delete dir="output" />
+        <mkdir dir="output" />
+
+        <exec dir="${basedir}" executable="xsltproc" failonerror="true">
+            <arg line="--xinclude" />
+            <arg line="--output ./output/index.html" />
+            <arg line="--stringparam use.extensions 0" />
+            <arg line="--stringparam use.id.as.filename 1" />
+            <arg line="./docbook/xhtml-1_1/chunk.xsl" />
+            <arg line="./source/book.xml" />
+        </exec>
+
+    </target>
+
+</project>

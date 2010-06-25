@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<sect2 id="system.tokenmanipulator.remove-begin-newline">
+    <title>RemoveBeginNewline-TokenManipulator</title>
+
+    <para>
+        The RemoveBeginNewline-TokenManipulator removes the a newline (\r\n, \r, \n) if found at the begin of the tokens value.
+    </para>
+</sect2>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<chapter id="system">
+    <title>How the Manipulator works</title>
+    <sect1>
+        <para>
+           PHP\Manipulator consists of different Parts which together form the PHP\Manipulator.
+           The core of the system are it's Token-class, the File and TokenContainer.
+           Then there are the Actions, the Actionsets, the TokenManipulators, the TokenConstraints, the ContainerManipulators and the TokenFinders, which provide different concepts for finding the Tokens you want to manipulate and to maniuplate them.
+           In the following chapters the parts are explained and there is a description for each implemented Class of this part
+        </para>
+    </sect1>
+
+    <xi:include  href="system/action.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="system/actionset.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="system/filecontainer.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="system/token.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="system/tokenconstraint.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="system/tokencontainer.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="system/tokenfinder.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="system/tokenmanipulator.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+
+</chapter>

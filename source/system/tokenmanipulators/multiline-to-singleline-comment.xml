@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<sect2 id="system.tokenmanipulator.multiline-to-singleline-comment">
+    <title>MultilineToSinglelineComment-TokenManipulator</title>
+
+    <para>
+        The MultilineToSinglelineComment-TokenManipulator transforms a multiline-comment into multiple single-line-comments
+    </para>
+</sect2>

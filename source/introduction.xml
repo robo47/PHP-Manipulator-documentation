@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<chapter id="introduction">
+    <title>Introduction to the PHP\Manipulator</title>
+
+    <sect1>
+        <para>
+        PHP\Manipulator is a system with the purpose to allow easy manipulation of php-code based on it's tokens.
+        Those manipulations can be used for example to remove code for production (comments) or apply your own Coding-Guidelines to it.
+        </para>
+        <para>
+        Some examples based on already implemented actions:
+        </para>
+        <para>
+            <itemizedlist>
+                <listitem>Remove Comments</listitem>
+                <listitem>Convert old style-constructors (method based on the classname) to new ones (__construct)</listitem>
+                <listitem>Change short tags into long tags</listitem>
+                <listitem>Change asp tags into long tags</listitem>
+                <listitem>Add public to class-variables or methods which don't have it</listitem>
+                <listitem>Replace var with public</listitem>
+                <listitem>Format and Indent Code according to your own defined Coding-Standard</listitem>
+                <listitem>Comment-out includes and requires when using autoloading</listitem>
+            </itemizedlist>
+        </para>
+    </sect1>
+
+    <xi:include  href="requirements.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="installation.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+</chapter>
