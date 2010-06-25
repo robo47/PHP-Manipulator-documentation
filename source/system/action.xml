@@ -9,7 +9,7 @@
     </para>
 
     <xi:include  href="action/add-public-keyword.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
-    <xi:include  href="action/asptags-to-long-tags.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/asptags-to-longtags.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
     <xi:include  href="action/change-line-endings.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
     <xi:include  href="action/change-quotes-to-single-quotes.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
     <xi:include  href="action/comment-out-includes-and-requires.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
@@ -34,7 +34,7 @@
     <xi:include  href="action/replace-boolean-operators-with-logical-operators.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
     <xi:include  href="action/replace-logical-operators-with-boolean-operators.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
     <xi:include  href="action/replace-var-with-public.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
-    <xi:include  href="action/shorttags-to-long-tags.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/shorttags-to-longtags.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
     <xi:include  href="action/strip-non-php.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
     <xi:include  href="action/strip-php.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
     <xi:include  href="action/strip-unneeded-php-close-tag.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
