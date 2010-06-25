@@ -13,8 +13,8 @@
     <xi:include  href="action/change-line-endings.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
     <xi:include  href="action/change-quotes-to-single-quotes.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
     <xi:include  href="action/comment-out-includes-and-requires.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
-    <xi:include  href="action/else-and-if-to-else-if.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
-    <xi:include  href="action/else-if-to-else-and-if.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/else-and-if-to-elseif.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
+    <xi:include  href="action/elseif-to-else-and-if.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
     <xi:include  href="action/format-casts.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
     <xi:include  href="action/format-if-elseif-else.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
     <xi:include  href="action/format-operators.xml" xmlns:xi="http://www.w3.org/2003/XInclude" />
